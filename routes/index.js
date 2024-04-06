@@ -83,7 +83,7 @@ router.post('/return', async (req, res) => {
   );
 
   // 交易成功後，需要回傳 1|OK 給綠界
-  res.send('1|OK');
+  res.send('0|OK');
 });
 
 // 用戶交易完成後的轉址
